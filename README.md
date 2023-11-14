@@ -11,10 +11,9 @@ npx prisma init
 npx prisma migrate dev --name init
 npx prisma generate
 ```
-First command will init prisma project. It will add **.env** file and a **prisma** folder. <br>
-Second command will create a database, which was provided in database URL. Better to provide new database, because old one can be corrupted in the process. Also we can migrate projects from Sequelize and Mongoose.
-<br>
-Third command will generate a project and install all dependencies
+1. Command will init prisma project. It will add **.env** file and a **prisma** folder.
+2. Command will create a database, which was provided in database URL. Better to provide new database, because old one can be corrupted in the process. Also we can migrate projects from Sequelize and Mongoose.
+3. Command will generate a project and install all dependencies
 
 ## ENV variables
 
